@@ -26,8 +26,18 @@ mares1 = ["mediterraneo", "cantábrico", "báltico", "adriático", "tirreno", "e
 
 mares2 = ["rojo", "muerto", "caspio", "negro", "arábigo", "sulu"]
 
-mares = [mares1[0], mares1[1], mares1[2], mares1[3], mares1[4], mares1[5],
-         mares2[0], mares2[1], mares2[2], mares2[3], mares2[4], mares2[5]]
+mares = []
+
+for i in mares1:
+    mares.append(i)
+
+for i in mares2:
+    mares.append(i)
+
+print(mares)
+
+# mares = [mares1[0], mares1[1], mares1[2], mares1[3], mares1[4], mares1[5],
+#          mares2[0], mares2[1], mares2[2], mares2[3], mares2[4], mares2[5]]
 
 print(f'La lngitud del mares1 es {len(mares1)}')
 print(f'Los valores de todas las posiciones de la lista mares1: {mares1}')
