@@ -15,7 +15,7 @@ posiciones (mediterráneo, cantábrico, báltico, adriático, tirreno, egeo).
 5. La longitud de la lista mares
 6. Los valores de todas las posiciones de mares
 7. Los valores de las posiciones 1, 2 y 3 de mares1
-8. El índice o posición del mar ‘egeo’ en mares1
+8. El índice o posición del mar egeo en mares1
 9. Los valores de las posiciones 4, 5 y 6 de mares2
 10.  El índice o posición del mar caspio en mares2
 11.  El índice o posición del mar caspio en mares
@@ -45,7 +45,7 @@ print(f'La lngitud del mares2 es {len(mares2)}')
 print(f'Los valores de todas las posiciones de la lista mares2: {mares2}')
 print(f'Los valores de todas las posiciones de la lista mares: {mares}')
 print(f'Los valores de las posiciones 1, 2 y 3 de mares1: {mares1[0], mares1[1], mares1[2]}')
-print(f'El índice o posición del mar ‘egeo’ en mares1: {mares1.index("egeo")}')
+print(f'El índice o posición del mar egeo en mares1: {mares1.index("egeo")}')
 print(f'Los valores de las posiciones 4, 5 y 6 de mares2: {mares2[3], mares2[4], mares2[5]}')
 print(f'El índice o posición del mar caspio en mares2: {mares2.index("caspio")}')
 print(f'El índice o posición del mar caspio en mares: {mares.index("caspio")}')

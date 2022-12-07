@@ -11,3 +11,32 @@ mensaje: “Por fin lo has acertado. Ha debido ser muy complicado para ti”. En
 mensaje: “Buen Trabajo! Lo has acertado”.
 '''
 
+import random
+
+num = random.randint(1, 100)
+numUser = 0
+intentos = 0
+
+print(num)
+
+while numUser != num:
+    try:
+        numUser = int(input("Introduce un número "))
+        intentos += 1
+    except ValueError as error:
+        print("El valor introducido no es correcto")
+
+    if numUser > num:
+        print("El número es más pequeño")
+    elif numUser < num:
+        print("El número es más grande")
+
+if intentos == 1:
+    print("¡Enhorabuena! Lo has acertado a la primera")
+elif intentos > 3:
+    print("Por fin lo has acertado. Ha debido ser muy complicado para ti")
+else:
+    print("Buen Trabajo! Lo has acertado")
+
+print(f'Has necesitado {intentos} intentos para acertar')
+

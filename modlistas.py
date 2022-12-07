@@ -69,7 +69,7 @@ print("9. Muestra los valores de las variables mar1, mar2 y mar3")
 print(f'Valor de mar1: {mar1} \nValor de mar2: {mar2} \nValor de mar3: {mar3}')
 
 print("10.  Elimina el primer elemento de la lista mares con valor 'báltico'. Muestra la lista mares")
-print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+mares.remove("báltico")
 
 print("11.  Elimina todos los elementos de la lista mares")
 mares.clear()
